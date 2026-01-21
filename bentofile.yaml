@@ -1,0 +1,14 @@
+service: "api.app:svc"  # On indique que app.py est dans le dossier 'api'
+description: "Service de prédiction de consommation énergétique - Seattle"
+
+labels:
+  owner: abdou
+  project: p6_seattle
+
+include:
+  - "api/*.py"          # On inclut les fichiers Python qui sont dans le dossier api
+  - "*.pkl"             # On inclut les modèles (scaler, pkl) qui sont à la racine
+  - "requirements.txt"  # On inclut le fichier de dépendances
+
+python:
+  requirements_txt: "./requirements.txt"
