@@ -1,13 +1,13 @@
-# --- Cœur de l'API ---
+# Cœur de l'API 
 bentoml==1.4.33
 pydantic==2.12.5
-# pydantic_core est installé automatiquement par pydantic, pas besoin de le lister
 
-# --- Data Science & Modèle ---
+
+# Data Science & Modèle 
 numpy==2.0.2
 pandas==2.3.3
 scikit-learn==1.6.1
 
-# --- Utilitaires Serveur (Indispensables pour BentoML) ---
+# Utilitaires Serveur (Indispensables pour BentoML)
 uvicorn
 python-multipart

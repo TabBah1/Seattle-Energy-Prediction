@@ -1,4 +1,4 @@
-# --- Python & Environnements ---
+# Python & Environnement
 __pycache__/
 *.py[cod]
 *$py.class
@@ -10,22 +10,22 @@ venv/
 build/
 dist/
 
-# --- Jupyter Notebook ---
+# Jupyter Notebook
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# --- BentoML & Déploiement ---
+# BentoML & Déploiement
 # On ignore absolument le dossier bentos/ (très lourd, contient les images de build)
 bentos/
 # On ignore les fichiers de verrouillage générés automatiquement
 *-lock.yaml
 
-# --- Données et Modèles ---
+# Données et Modèles
 # On ignore les fichiers de modèles temporaires ou très lourds
 *.joblib
 *.save
 
-# --- OS ---
+# OS
 .DS_Store
 .DS_Store?
 Thumbs.db
