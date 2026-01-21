@@ -69,12 +69,16 @@ P6_SEATTLE_ENERGY/
 Assurez-vous d'avoir Anaconda ou Miniconda installé.
 
 #### Création de l'environnement
-``` conda create -n p6_seattle python=3.10 -y 
-    conda activate p6_seattle 
+``` 
+conda create -n p6_seattle python=3.10 -y 
+conda activate p6_seattle 
+
 ```
 
 #### Installation des dépendances
-``` pip install -r requirements.txt 
+``` 
+pip install -r requirements.txt 
+
 ```
 
 2. Entraînement et Analyse:
