@@ -1,5 +1,5 @@
 # Cœur de l'API 
-bentoml==1.4.33
+bentoml==1.4.34
 pydantic==2.12.5
 
 
